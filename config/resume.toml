@@ -1,0 +1,98 @@
+############## Education config #################
+#################################################
+
+[[education]]
+title = "Amirkabir University of Technology, Tehran, Iran"
+timeline = "2019 — 2024"
+discipline = "Bachelor of Science in Computer Engineering"
+description = "GPA: 15.48/20 = 3.07/4"
+description = "GPA Over The Last Two Years: 16.2/20 = 3.26/4"
+
+[[education]]
+title = "Mobtakeran High School"
+timeline = "2016 — 2019"
+discipline = "Diploma in Mathematics and Physics"
+description = "GPA: 18.58/20"
+
+
+############## Experience config ################
+#################################################
+
+[[Experience]]
+title = "Undergraduate Research Assistant"
+
+institution = "Amirkabir University of Technology."
+supervisor = "Prof. Hamid Reza Zarandi"
+description = "Bsc Thesis:"
+bullets = [
+            "Developed a custom variant of CNN from scratch for FPGA implementation."
+            "Implemented core CNN components: Convolution, Pooling, Fully-Connected layers, Activation functions, and Flattening."
+            "Designed and integrated a custom UART communication protocol for wired and wireless communication."
+            "Optimized network performance by integrating CNN with UART."
+            "Software used: ISE Design Suite, Arduino"
+]
+
+title = "Data Science Intern"
+company = "Exir Sanat"
+city = "Tehran"
+country = "Iran"
+description = ""
+bullets = [
+            "Applied machine learning techniques (Classification, Regression, Clustering) to support short-term business analytics projects."
+            "Developed basic regression models to predict inventory demands, achieving early insights into logistics optimization using tools like linear
+            regression and ARIMA."
+            "Implemented time-series models to analyze sales data, utilizing SARIMA for trend detection and forecasting in a limited data environment."
+            "Used k-means clustering to perform preliminary segmentation of consumer data, identifying key customer groups and emerging behavior
+            patterns."
+]
+
+
+############## TA config ####################
+#################################################
+
+[[TA]]
+title = "User Interface Design"
+timeline = "Spring 2024"
+supervisor = " Prof. Sajad Shirali-Shahreza"
+
+
+
+############## Skills config ####################
+#################################################
+[skills] 
+title = "My Skills"
+enabled = true
+show_bar = true
+show_value = true
+
+[[skill]]
+title = "Web design"
+value = "80%"
+
+[[skill]]
+title = "Graphic design"
+value = "70%"
+
+[[skill]]
+title = "Branding"
+value = "90%"
+
+[[skill]]
+title = "WordPress"
+value = "50%"
+
+############## Language config ##################
+#################################################
+[languages]
+title = "Languages"
+enabled = true
+show_bar = true
+show_value = true
+
+[[language]]
+title = "Ingles"
+value = "60%"
+
+[[language]]
+title = "French"
+value = "50%"
